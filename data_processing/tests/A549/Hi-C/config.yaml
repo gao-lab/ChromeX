@@ -1,0 +1,47 @@
+samples:
+  A549:
+    rep1:
+      - 0
+      - 1
+    rep2:
+      - 0
+      - 1
+    rep3:
+      - 0
+      - 1
+    rep4:
+      - 0
+      - 1
+
+
+workdir: "/absolute/path/to/ChromeX/data_processing/tests/A549/Hi-C"
+genomePath: "/absolute/path/to/reference/hg38.fa"
+site_file: "/absolute/path/to/juicer-2.0/site_file/hg38_MboI.txt"
+chromsize: "/absolute/path/to/ChromeX/data_processing/reference/hg38.chrom.sizes"
+mainonly_chromsize: "/absolute/path/to/ChromeX/data_processing/reference/hg38.mainonly.chrom.sizes"
+
+count_ligations: "/absolute/path/to/ChromeX/data_processing/scripts/count_ligations.sh"
+chimeric_sam: "/absolute/path/to/juicer-encode_tag_disk1/CPU/common/chimeric_sam.awk"
+adjust_insert_size: "/absolute/path/to/juicer-encode_tag_disk1/CPU/common/adjust_insert_size.awk"
+dups_sam: "/absolute/path/to/juicer-encode_tag_disk1/CPU/common/dups_sam.awk"
+sam_to_pre: "/absolute/path/to/juicer-encode_tag_disk1/CPU/common/sam_to_pre.awk"
+shortform2pairs: "/absolute/path/to/pairix-0.3.7/util/juicer_shortform2pairs"
+stats_sub: "/absolute/path/to/juicer-2.0/CPU/common/stats_sub.awk"
+merge_stats: "/absolute/path/to/juicer-2.0/CPU/common/merge-stats.jar"
+merge_pairs: "/absolute/path/to/pairix-0.3.7/util/merge-pairs.sh"
+juicer_tools: "/absolute/path/to/juicer_tools.jar"
+SK_balance: "/absolute/path/to/ChromeX/data_processing/scripts/SK_normalization.py"
+split_chrom: "/absolute/path/to/ChromeX/data_processing/scripts/split_chrom.sh"
+convert_df2matrix: "/absolute/path/to/ChromeX/data_processing/scripts/convert_df2matrix.py"
+call_subcompartment: "/absolute/path/to/ChromeX/data_processing/scripts/call_subcompartments.R"
+call_TAD: "/absolute/path/to/ChromeX/data_processing/scripts/call_TADs.sh"
+call_loop: "/absolute/path/to/ChromeX/data_processing/scripts/call_loops.py"
+OnTAD: "/absolute/path/to/OnTAD/OnTAD"
+
+singleend: 0       # Use '1' for single-end sequencing and '0' for paired-end sequencing.
+threads: 32
+mapq: 30
+resolution: 10000
+genomeID: "hg38"
+site: "MboI"
+

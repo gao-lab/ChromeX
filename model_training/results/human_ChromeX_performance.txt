@@ -1,0 +1,17 @@
+Train_cell:
+['A549', 'Caco2', 'Mammary_Epithelialcell', 'PC9', 'Th2cell', 'Activated_Bcell', 'CD14_monocyte', 'NKcell', 'H1_differentiated_to_definitive_endoderm', 'hiPSC', 'RUES2_stemcells_differentiated_to_mesoderm', 'NPC', 'LMNA_R225X_hIPSCs_differentiated_into_cardioymyocytes', 'Motor_neurons', 'LMNA_R225R_homozygous_clone38_hIPSCs_differentiated_into_cardioymyocytes', 'RUES2_stemcells_differentiated_to_cardiac_progenitors']
+['A673', 'Thymus_Naive_CD4_AlphaBetaTcell', 'A549', 'Mammary_Epithelialcell', 'Th2cell', 'Activated_Bcell', 'NKcell', 'H1_differentiated_to_definitive_endoderm', 'RUES2_stemcells_differentiated_to_mesoderm', 'NPC', 'LMNA_R225X_hIPSCs_differentiated_into_cardioymyocytes', 'LMNA_R225R_homozygous_clone15_hIPSCs_differentiated_into_cardioymyocytes', 'Motor_neurons', 'RUES2_stemcells_differentiated_to_cardiomyocytes', 'LMNA_R225R_homozygous_clone38_hIPSCs_differentiated_into_cardioymyocytes', 'RUES2_stemcells_differentiated_to_cardiac_progenitors']
+['A673', 'Thymus_Naive_CD4_AlphaBetaTcell', 'Caco2', 'Mammary_Epithelialcell', 'PC9', 'Th2cell', 'Activated_Bcell', 'CD14_monocyte', 'NKcell', 'H1_differentiated_to_definitive_endoderm', 'hiPSC', 'RUES2_stemcells_differentiated_to_mesoderm', 'LMNA_R225X_hIPSCs_differentiated_into_cardioymyocytes', 'LMNA_R225R_homozygous_clone15_hIPSCs_differentiated_into_cardioymyocytes', 'RUES2_stemcells_differentiated_to_cardiomyocytes', 'RUES2_stemcells_differentiated_to_cardiac_progenitors']
+['A673', 'Thymus_Naive_CD4_AlphaBetaTcell', 'A549', 'Caco2', 'PC9', 'Th2cell', 'Activated_Bcell', 'CD14_monocyte', 'H1_differentiated_to_definitive_endoderm', 'hiPSC', 'NPC', 'LMNA_R225X_hIPSCs_differentiated_into_cardioymyocytes', 'LMNA_R225R_homozygous_clone15_hIPSCs_differentiated_into_cardioymyocytes', 'Motor_neurons', 'RUES2_stemcells_differentiated_to_cardiomyocytes', 'LMNA_R225R_homozygous_clone38_hIPSCs_differentiated_into_cardioymyocytes']
+['A673', 'Thymus_Naive_CD4_AlphaBetaTcell', 'A549', 'Caco2', 'Mammary_Epithelialcell', 'PC9', 'CD14_monocyte', 'NKcell', 'hiPSC', 'RUES2_stemcells_differentiated_to_mesoderm', 'NPC', 'LMNA_R225R_homozygous_clone15_hIPSCs_differentiated_into_cardioymyocytes', 'Motor_neurons', 'RUES2_stemcells_differentiated_to_cardiomyocytes', 'LMNA_R225R_homozygous_clone38_hIPSCs_differentiated_into_cardioymyocytes', 'RUES2_stemcells_differentiated_to_cardiac_progenitors']
+
+Validation_cell:
+['A673', 'Thymus_Naive_CD4_AlphaBetaTcell', 'LMNA_R225R_homozygous_clone15_hIPSCs_differentiated_into_cardioymyocytes', 'RUES2_stemcells_differentiated_to_cardiomyocytes']
+['Caco2', 'PC9', 'CD14_monocyte', 'hiPSC']
+['A549', 'NPC', 'Motor_neurons', 'LMNA_R225R_homozygous_clone38_hIPSCs_differentiated_into_cardioymyocytes']
+['Mammary_Epithelialcell', 'NKcell', 'RUES2_stemcells_differentiated_to_mesoderm', 'RUES2_stemcells_differentiated_to_cardiac_progenitors']
+['Th2cell', 'Activated_Bcell', 'H1_differentiated_to_definitive_endoderm', 'LMNA_R225X_hIPSCs_differentiated_into_cardioymyocytes']
+
+final_model_mse_mean:
+0.05302795674847525
+

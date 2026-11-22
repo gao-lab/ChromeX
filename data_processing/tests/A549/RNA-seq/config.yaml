@@ -1,0 +1,13 @@
+samples:
+  A549:
+    - rep1
+    - rep2
+
+workdir: "/absolute/path/to/ChromeX/data_processing/tests/A549"
+genomeDir: "/absolute/path/to/star/hg38/index"
+rsem_calculate_expression: "/absolute/path/to/RSEM-1.2.31/rsem-calculate-expression"
+label_pre: "/absolute/path/to/ChromeX/data_processing/scripts/prepare_label_input.R"
+rsem_pre: "/absolute/path/to/rsem/reference/hg38"
+threads: 8
+gtf: "/absolute/path/to/gtf/gencode.v44.annotation.gtf"
+

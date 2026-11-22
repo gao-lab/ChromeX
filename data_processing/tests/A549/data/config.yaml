@@ -1,0 +1,18 @@
+samples: "A549"
+workdir: "/absolute/path/to/ChromeX/data_processing/tests/A549"
+
+genomeID: "hg38"
+resolution: 10000
+
+subcompartment_pre: "/absolute/path/to/ChromeX/data_processing/scripts/prepare_subcompartments_input.R"
+BL_pre: "/absolute/path/to/ChromeX/data_processing/scripts/prepare_BL_input.sh"
+IF_and_RL_pre: "/absolute/path/to/ChromeX/data_processing/scripts/prepare_IF_and_RL_input.sh"
+loop_pre: "/absolute/path/to/ChromeX/data_processing/scripts/prepare_loopNum_input.sh"
+build_data: "/absolute/path/to/ChromeX/data_processing/scripts/build_data_for_model.py"
+
+ref_bed10_1: "/absolute/path/to/ChromeX/data_processing/reference/hg38_bin_10kb.bed.gz"
+ref_bed10_2: "/absolute/path/to/ChromeX/data_processing/reference/human_TSS_anno1M_10kb.bed.gz"
+ref_bed50_1: "/absolute/path/to/ChromeX/data_processing/reference/hg38_bin_50kb.bed.gz"
+ref_bed50_2: "/absolute/path/to/ChromeX/data_processing/reference/human_TSS_anno1M_50kb.bed.gz"
+gene_bed: "/absolute/path/to/ChromeX/data_processing/reference/human_protein_coding_genes.bed.gz"
+
